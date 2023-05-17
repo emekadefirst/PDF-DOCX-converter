@@ -1,0 +1,32 @@
+make sure you run this command in your terminal if you have python and pip installed already --> pip install pdf2docx
+if you don't have python install on your pc visit https://www.python.org/downloads/ which ever version suitable for your device
+make sure your add the PDF file to this folder before running the scripts
+
+HOW TO INSTALL PIP ON YOUR DEVICE
+    The process of installing `pip` may vary depending on the operating system you are using. Here are the general steps for installing `pip` on different devices:
+
+1. Windows:
+   - Download the `get-pip.py` script from the official Python website: https://bootstrap.pypa.io/get-pip.py
+   - Open a command prompt and navigate to the directory where you downloaded `get-pip.py`.
+   - Run the following command: `python get-pip.py`
+
+2. macOS and Linux:
+   - Open a terminal.
+   - Run the following command to install `pip` using the package manager:
+     - For Python 2: `sudo apt-get install python-pip`
+     - For Python 3: `sudo apt-get install python3-pip`
+
+3. Linux (using package manager):
+   - Open a terminal.
+   - Run the appropriate command based on your distribution:
+     - Debian/Ubuntu: `sudo apt-get install python-pip`
+     - Fedora: `sudo dnf install python2-pip` (Python 2) or `sudo dnf install python3-pip` (Python 3)
+     - CentOS/RHEL: `sudo yum install epel-release && sudo yum install python-pip` (Python 2) or `sudo yum install python3-pip` (Python 3)
+
+After the installation, you can verify the `pip` installation by running `pip --version` in the command prompt or terminal. If the installation is successful, it will display the version of `pip` installed.
+
+It's worth noting that on some systems, `pip` may be already installed by default. In such cases, you can upgrade `pip` to the latest version using the command: `pip install --upgrade pip`.
+
+Remember to use administrative or superuser privileges (such as `sudo` on macOS/Linux) when required during the installation process.
+
+It's important to download `pip` from official sources to ensure a safe and reliable installation.
